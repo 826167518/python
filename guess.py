@@ -19,12 +19,7 @@ if int(guess) == secret :
 else :
     print ("No more guesses! Better luck next time, matey！")
     print ("The secret number was", secret)
-import sys
-    try:
-        input("输入回车结束")
-    except:
-        sys.exit(0)
-#raw_input("输入回车结束")
+raw_input("输入回车结束")
 # print(type(secret))
 # print(type(guess))
 # print(type(tries))
