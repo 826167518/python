@@ -38,13 +38,13 @@
 
 
 
-numBlocks = int(raw_input('How many blocks of stars do you want? '))
-for block in range(1,numBlocks +1):
-    for line in range(1,block * 2):
-	for star in range(1,(block + line) * 2):
-	    print '*',
-	print ' line = ',line,'star = ',star
-    print
+#numBlocks = int(raw_input('How many blocks of stars do you want? '))
+#for block in range(1,numBlocks +1):
+#    for line in range(1,block * 2):
+#	for star in range(1,(block + line) * 2):
+#	    print '*',
+#	print ' line = ',line,'star = ',star
+#    print
 
 
 #####python3.x####
@@ -55,3 +55,10 @@ for block in range(1,numBlocks +1):
 #	    print('*',end=' ')
 #	print(' line = ',line,'star = ',star)
 #    print()
+
+numStars = int(raw_input("shuru: "))
+for i in range(numStars,0,-1):
+    print i,
+    for x in range(0,i):
+	print "*",
+    print
